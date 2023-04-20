@@ -1,0 +1,470 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    background: rgb(206, 37, 37);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 0 10px 150px;
+}
+.topbar p{
+    padding-left: 12px;
+}
+.topbar span{
+    position: relative;
+    top: 10px;
+}
+
+body{
+    position: relative;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 3;
+}
+.nav{
+    height: 100px;
+    padding-left: 150px;
+}
+.nav ul{
+    display:inline-flex;
+
+}
+.nav li{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav span{
+    position: relative;
+    top: 20px;
+   
+}
+
+.img-sch img{
+    width: 100%;  
+    height: 550px;
+    background-size: cover;
+}
+.img-sch{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-sch::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 1;
+}
+.img-sch .text{
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+
+}
+
+.img-sch .text h1{
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-sch .text p{
+    margin: 1;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read{
+    position: absolute;
+    border: solid 1px white;
+    width: 100px;
+    left: 180px;
+    margin-top: 2px;
+}
+.read a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    position: relative;
+}
+.about{
+    position: relative;
+    top: 0;
+    margin-left: 130px;
+    margin-top: 20px;
+
+}
+
+.about .alert{
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.college{
+    margin-top: 40px;
+    background-color:whitesmoke;
+    height: 250px;
+    width: 700px;
+    position: relative;
+ 
+
+}
+.college .box{
+    background-color:  rgb(206, 37, 37);
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.about img{
+margin: 20px;
+border: 8px solid #3333333a;
+}
+.about .text{
+    position: absolute;
+    color: grey;
+    top: 20px;
+    left: 200px;
+    padding:4px 20px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+
+}
+.form{
+    position: absolute;
+    background: rgb(206, 37, 37);
+    height: 200px;
+    width: 250px;
+    top: 75px;
+    left: 810px;
+}
+.form hr{
+    margin: 1opx;
+    width: 210px;
+}
+.form h4{
+    color: white;
+    margin: 10px;
+    margin-top:20px;
+    padding: 10px 0;
+}
+.form .box{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-left:20px;
+}
+.notice{
+    background: whitesmoke;
+    height: 30px;
+    width: 20%;
+    position: absolute;
+    top: 300px;
+    left: 810px;
+}
+.notice h4{
+    font-weight: lighter;
+    position: absolute;
+    padding: 5px;
+}
+
+#about-us{
+    position:relative ;
+    top: 2px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.about-us img{
+    border: 7px solid rgb(10, 10, 10, 0.2);
+    margin-top: 40px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.about-us .text{
+    width: 350px;
+    text-align: justify;
+    position: absolute;
+    top: 30px;
+    left: 395px;
+
+}
+
+.notice-board{
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 810px;
+
+}
+.notice-board ul{
+    list-style: none;
+    margin-left: 2px;
+}
+
+.notice-board li{
+    padding: 7px;
+    font-weight: lighter;
+}
+#glance-box{
+    position: relative;
+    top: 90px;
+    margin-left: 120px;
+  
+}
+.glance{
+    position: absolute;
+
+}
+.fi{
+    margin-top: 15px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 370px;
+    height: 450px;
+    object-fit: cover;
+}
+.se{
+    margin-top: 15px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.th{
+    margin-top: 15px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 520px;
+}
+.ft{
+    margin-top: 15px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 660px; 
+}
+.se-fi{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 10px;
+    top: 220px;
+}
+.se-ei{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 10px;
+    top: 400px;
+}
+.th-sx{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 520px;
+    top: 220px;
+}
+.ft-sv{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 660px; 
+    top: 220px;
+}
+.th-ni{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 520px;
+    top: 400px; 
+}
+.ft-th{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    position: absolute;
+    left: 660px; 
+    top: 400px;
+}
+#about-us .downloads{
+    position: absolute;
+    top: 200px;
+    left: 810px;
+}
+#about-us .downloads span{
+    border: none;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+
+}
+#about-us .downloads ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+#glance-box .location{
+    position: absolute;
+    top: 200px;
+    left: 810px;
+}
+#glance-box .location span{
+       border: none;
+       background-color: whitesmoke;
+       border: none;
+       background-color: whitesmoke;
+       width: 300px;
+       height: 40px;
+       display: flex;
+       padding: 10px;
+}
+.loc{
+    padding-top: 10px;
+    margin-left: 5px;
+    padding-bottom: 15px;
+}
+.loc p{
+    width: 300px;
+    font-weight: lighter;
+}
+.mail{
+    color: red;
+    padding-top: 10px;
+}
+.awards{
+    position: absolute;
+    top: 580px;
+    font-size: 30px;
+}
+.awards hr{
+    margin-top: 20px;
+}
+.newsletter-box{
+ position: relative;
+ top: 750px;
+}
+.newsletter{
+   position: absolute;
+   width: 100%;
+   height: 80px;
+   color: white;
+   background-color:  rgb(206, 37, 37);
+   top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.newsletter p{
+    padding:0 100px 0 0;
+}
+.newsletter input{
+    width: 400px;
+    height:40px;
+    border: none;
+    padding: 10px;
+}
+.newsletter .sign{
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+}
+.foot{
+   position: absolute;
+   top: 80px;
+   margin: 40px;
+   font-weight: lighter;
+   color: gray;
+   display: flex;
+   flex-direction: row;
+   gap: 70px;
+}
+.foot .img{
+    width: 250px;
+}
+.big-img{
+    width: 250px;
+
+}
+.location{
+    width: 300px;
+}
+footer{
+    position: relative;
+    top: 1300px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:#333;
+    color: gray;
+}
+footer h5{
+    margin-right: 500px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+input[type=email]:focus{
+    outline-color: yellow;
+}
+
